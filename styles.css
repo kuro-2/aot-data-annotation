@@ -312,7 +312,9 @@ html { scrollbar-width: thin; scrollbar-color: var(--p500) var(--g100); }
 .cta__inner { display: grid; grid-template-columns: 1.4fr 1fr; gap: 48px; align-items: center; }
 .cta h2 { font-size: clamp(34px, 4vw, 52px); font-weight: 500; }
 .cta p { margin-top: 16px; font-size: 18px; color: rgba(255,255,255,.88); max-width: 560px; }
-.cta__action { justify-self: end; }
+.cta__action { justify-self: end; display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.cta__site { color: #fff; font-weight: 600; text-decoration: none; border-bottom: 1px solid rgba(255,255,255,.5); padding-bottom: 2px; }
+.cta__site:hover { border-color: #fff; }
 
 /* Footer */
 .footer { background: #fff; border-top: 1px solid var(--line); padding: 36px 0; font-size: 15px; color: var(--g600); }
@@ -352,7 +354,7 @@ html { scrollbar-width: thin; scrollbar-color: var(--p500) var(--g100); }
   .pilot__loop { display: none; }
   .sol__flow { grid-template-columns: 1fr; }
   .sol__arrow svg { transform: rotate(90deg); width: 40px; margin: 0 auto; }
-  .cta__action { justify-self: start; }
+  .cta__action { justify-self: start; align-items: flex-start; }
 }
 @media (max-width: 620px) {
   body { font-size: 16px; }
