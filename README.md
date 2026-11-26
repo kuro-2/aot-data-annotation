@@ -1,11 +1,10 @@
 # AOT Data Annotation & Labeling: marketing site
 
-Static, dependency-free landing page (HTML + CSS + vanilla JS) for Agents Only Technologies.
+Simple version: a short, static one-page site (HTML + CSS) for Agents Only Technologies.
 
 ```
 index.html      page markup and content
-styles.css      brand tokens, layout, animations, custom scrollbar
-script.js       scroll effects, animated diagrams, solutions carousel
+styles.css      brand tokens, layout, custom scrollbar
 assets/         logo-mark.png (icon / favicon), logo-full.png (wordmark)
 vercel.json     clean URLs, caching and security headers
 ```
@@ -44,5 +43,5 @@ When prompted, accept the defaults. Framework preset: **Other**, no build comman
 
 ## Editing content
 
-All copy lives in `index.html`. The seven "Custom solutions" entries are in the `SOLUTIONS` array in `script.js`.
+All copy lives in `index.html`.
 Brand colours are CSS variables at the top of `styles.css`.
