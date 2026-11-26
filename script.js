@@ -61,43 +61,43 @@
   // Pilot designs
   const PILOTS = [
     {
-      title: 'AI agents and tool use',
+      title: 'AI Agents and Tool Use',
       desc: 'We simulate a workflow that runs across your business tools, so you can check both the steps an agent takes and where it ends up.',
       input: 'A simulated workflow across the business tools you use.',
       output: ['Reference steps', 'Tool-use logs', 'A scorecard for the outcome']
     },
     {
-      title: 'Coding and software engineering',
+      title: 'Coding and Software Engineering',
       desc: 'You approve a Python issue. We turn it into a task pack a model can be tested on.',
       input: 'A Python issue you have signed off on.',
       output: ['A reference solution', 'Tests you can run', 'A scoring report']
     },
     {
-      title: 'Physical AI and robotics',
+      title: 'Physical AI and Robotics',
       desc: 'We work from staged footage shot on several cameras at once.',
       input: 'Staged footage from multiple cameras.',
       output: ['Event labels lined up in time', 'Camera IDs', 'A report on missing views or timing problems']
     },
     {
-      title: 'Speech and multilingual AI',
+      title: 'Speech and Multilingual AI',
       desc: 'We put together a sample across the languages, accents and noise conditions you pick.',
       input: 'Recordings in your chosen languages, accents and noise levels.',
       output: ['Reference transcripts', 'Errors broken down by language', 'Errors broken down by recording condition']
     },
     {
-      title: 'Documents and multimodal AI',
+      title: 'Documents and Multimodal AI',
       desc: 'We pair questions with PDFs, screenshots or video, and every answer points back to its evidence.',
       input: 'Questions alongside PDFs, screenshots or video.',
       output: ['Reference answers', 'The page, region or timestamp that supports each one']
     },
     {
-      title: 'Expert evaluation and safety',
+      title: 'Expert Evaluation and Safety',
       desc: 'Specialists set the scoring criteria for a workflow like healthcare intake, then apply them.',
       input: 'A workflow, such as healthcare intake, and the specialists who know it.',
       output: ['Scored examples', 'Write-ups of where experts disagreed', 'Cases that need escalating']
     },
     {
-      title: 'Search and knowledge retrieval',
+      title: 'Search and Knowledge Retrieval',
       desc: 'We build realistic queries with the right sources, plus near-misses that look right but aren’t.',
       input: 'Representative queries, relevant sources and plausible near-matches.',
       output: ['Relevance ratings', 'Checks that each answer is backed by its sources']
