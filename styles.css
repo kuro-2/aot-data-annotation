@@ -159,7 +159,7 @@ html { scrollbar-width: thin; scrollbar-color: var(--p500) var(--g100); }
 .cycle__card rect { fill: #fff; stroke: var(--g300); stroke-width: 1.5; }
 .cycle__card--hi rect { fill: var(--p900); stroke: var(--p900); }
 .cycle__card .t1 { fill: var(--p900); font: 600 20px var(--sans); }
-.cycle__card .t2 { fill: var(--g500); font: 400 16px var(--sans); }
+.cycle__card .t2 { fill: var(--g500); font: 400 15px var(--sans); }
 .cycle__card--hi .t1 { fill: #fff; } .cycle__card--hi .t2 { fill: var(--p200); }
 .cycle__note { fill: var(--g400); font: italic 400 17px var(--serif); text-anchor: middle; }
 
