@@ -6,8 +6,17 @@ Simple version: a short, static one-page site (HTML + CSS) for Agents Only Techn
 index.html      page markup and content
 styles.css      brand tokens, layout, custom scrollbar
 assets/         logo-mark.png (icon / favicon), logo-full.png (wordmark)
+render.yaml     Render Blueprint (static site, headers, caching)
 vercel.json     clean URLs, caching and security headers
 ```
+
+## Deploy to Render
+
+1. In Render, choose **New → Blueprint** and connect the `kuro-2/aot-data-annotation` repo.
+2. Pick the `simple` branch. Render reads `render.yaml` and creates a static site called `aot-data-annotation`.
+3. Click **Apply**. The site goes live at `https://aot-data-annotation.onrender.com` (or a similar name if that one is taken).
+
+Every push to `simple` redeploys the site.
 
 ## Preview locally
 
